@@ -72,3 +72,21 @@ body{
     right: 0px;
     z-index: 1;
 }
+
+.modal {
+    .modal-header {
+        background-color: $background-dark;
+        color:floralwhite;
+        .close {
+            color: $lt-gray;
+
+            :hover {
+                color: $background-pale;
+            }
+        }
+    }
+
+    .modal-body {
+        background-color: $background-light;
+    }
+}

@@ -52,3 +52,14 @@ body {
   bottom: 0px;
   right: 0px;
   z-index: 1; }
+
+.modal .modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+  .modal .modal-header .close {
+    color: #ddd; }
+    .modal .modal-header .close :hover {
+      color: rgb(162, 158, 172); }
+
+.modal .modal-body {
+  background-color: #9575CD; }
